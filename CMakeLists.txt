@@ -1,8 +1,9 @@
+cmake_minimum_required(VERSION 3.20)
 cmake_policy(SET CMP0048 NEW)
 
 project(daisy_q VERSION 0.0.1)
 
-cmake_minimum_required(VERSION 3.20)
+
 set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 
 set(TARGET daisy_q)
